@@ -1,0 +1,10 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Front-End",
+            "descricao": "Uma descrição bacanussa",
+            "cor": "#cbd1ff"
+        }
+    ]
+}
