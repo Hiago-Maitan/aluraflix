@@ -31,7 +31,7 @@ function CadastroCategoria() {
 
     useEffect(() => {
         console.log("Aloo");
-        const URL_TOP = 'http://localhost:8080/categorias';
+        const URL_TOP = 'https://animee-flix.herokuapp.com/categorias';
         fetch(URL_TOP)
             .then(async (respostaDoServidor) => {
                 const resposta = await respostaDoServidor.json();
